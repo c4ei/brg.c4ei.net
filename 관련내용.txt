@@ -11,3 +11,18 @@ https://chainstack.com/how-to-create-blockchain-bridge/
 스마트 계약 : 우리는 연결하려는 각 블록체인에 하나씩 두 개의 ERC20 토큰 계약이 필요합니다. 스마트 계약을 만들고 배포하기 위해 Hardhat을 사용하겠습니다.
 웹 앱 : 사용자가 실제로 토큰을 보내기 위해 상호 작용할 프런트엔드입니다. Vue.js로 만들고 ethers.js를 사용하여 스마트 계약과 상호 작용할 것입니다.
 백엔드 작업 : 브리지 지갑에서 받은 토큰을 수신하는 프로세스도 필요합니다. 이 작업은 단순하게 유지하기 위해 JavaScript로 작성됩니다. web3.js를 사용하여 블록체인 노드 및 스마트 계약과 상호 작용합니다.
+
+############################################################################################
+solidity - ok 2022-11-08
+############################################################################################
+yarn deploy:ori    --> https://public-node-api.klaytnapi.com/v1/cypress
+Deploying contracts with account:  0xc8f0cf0a3d337332ABecAd0102bE3bd5BB4Edc55
+Account balance:  1000000000000000000
+contract ChainstackDollars deployed to address:  0x2383d2Ec72F49c75EB487B19c9b8b32ED9Ed50BD
+
+yarn deploy:dest
+Deploying contracts with account:  0xc8f0cf0a3d337332ABecAd0102bE3bd5BB4Edc55
+Account balance:  100000033000000000000000
+contract DChainstackDollars deployed to address:  0x2383d2Ec72F49c75EB487B19c9b8b32ED9Ed50BD
+############################################################################################
+

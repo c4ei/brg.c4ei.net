@@ -35,10 +35,12 @@ module.exports = {
       url: 'http://127.0.0.1:7545',
     },
     origin: {
+      chainId: 8217,
       url: process.env.DEPLOY_ENDPOINT_ORIGIN,
       accounts: [process.env.DEPLOY_ACC_KEY],
     },
     destination: {
+      chainId: 21004,
       url: process.env.DEPLOY_ENDPOINT_DESTINATION,
       accounts: [process.env.DEPLOY_ACC_KEY],
     },
