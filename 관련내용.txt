@@ -25,4 +25,11 @@ Deploying contracts with account:  0xc8f0cf0a3d337332ABecAd0102bE3bd5BB4Edc55
 Account balance:  100000033000000000000000
 contract DChainstackDollars deployed to address:  0x2383d2Ec72F49c75EB487B19c9b8b32ED9Ed50BD
 ############################################################################################
+yarn deploy:ori  --> 22-11-14 binance Test Net
+Deploying contracts with account:  0xc8f0cf0a3d337332ABecAd0102bE3bd5BB4Edc55
+Account balance:  500000000000000000
+contract ChainstackDollars deployed to address:  0x2383d2Ec72F49c75EB487B19c9b8b32ED9Ed50BD
 
+
+backend - ok 2022-11-10
+yarn start
